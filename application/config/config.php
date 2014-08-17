@@ -18,8 +18,8 @@ ini_set("display_errors", 1);
  * Configuration for: Project URL
  * Put your URL here, for local development "127.0.0.1" or "localhost" (plus sub-folder) is fine
  */
-define('URL', 'http://'.$_SERVER['HTTP_HOST'].'/gp_tech/');
-define('ROOT', $_SERVER['DOCUMENT_ROOT'].'/gp_tech/');
+define('URL', 'http://'.$_SERVER['HTTP_HOST'].'/gptech/');
+define('ROOT', $_SERVER['DOCUMENT_ROOT'].'/gptech/');
 
 /**
  * Configuration for: Database
@@ -27,6 +27,6 @@ define('ROOT', $_SERVER['DOCUMENT_ROOT'].'/gp_tech/');
  */
 define('DB_TYPE', 'mysql');
 define('DB_HOST', '127.0.0.1');
-define('DB_NAME', 'gp_tech');
+define('DB_NAME', 'gptech');
 define('DB_USER', 'root');
 define('DB_PASS', '');

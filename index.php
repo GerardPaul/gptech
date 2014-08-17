@@ -1,5 +1,4 @@
 <?php
-
 /**
  * A simple PHP MVC skeleton
  *
@@ -19,6 +18,8 @@ if (file_exists('vendor/autoload.php')) {
 require 'application/config/config.php';
 
 // load application class
+require 'application/libs/session.php';
+$session = new Session();
 require 'application/libs/application.php';
 require 'application/libs/controller.php';
 

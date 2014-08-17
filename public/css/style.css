@@ -1,33 +1,38 @@
-/* Demo CSS */
-
-html, body {
-    margin: 0;
-    padding: 0;
+html , body{
+    font-family: 'Open Sans', Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
-
-body {
-    font-size: 15px;
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border: none;
 }
-
-table {
-    font-size: 13px;
+.navbar ul li,
+.navbar ul li a{
+    color: #fff;
 }
-
-.container {
-    border: 3px solid #000;
-    padding: 20px;
-    margin: 10px;
+.navbar ul li.active, 
+.navbar ul li a:hover,
+.navbar ul li a:focus{ 
+    background: transparent;
+    background-color: transparent;
+    color: #ddd;
+    border: none;
 }
-
-.where-are-we-box {
-    position: relative;
-    left: -20px;
-    top: -20px;
-    background-color: #bbb;
-    padding: 10px 15px;
-    display: inline-block;
+.navbar .navbar-toggle {
+    border-color: transparent;
 }
-
-.bold {
-    font-weight: bold;
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: transparent;
+}
+.navbar .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.text-shadow{
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.9);
+}
+.logo{
+    background: url(../img/gerardpaullabitad-gptechnologies-logo_white.png) center center no-repeat;
+    background-size: 60px 60px;
+    width: 60px;
 }
