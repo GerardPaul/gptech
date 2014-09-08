@@ -1,27 +1,41 @@
-<div class="navbar-wrapper">
-    <div class="container">
-        <div class="navbar text-shadow">
-            <div class="navbar-inner">
-                    <div class="navbar-header">
-                        <button class="navbar-toggle collapsed" data-target=".navbar-collapse" data-toggle="collapse" type="button">
-                            <span class="sr-only">Toggle Navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    <a href="#"><div class="navbar-brand logo"></div></a>
+<!-- Full Screen Background -->
+<div id="bg">
+    <?php for($i = 1; $i<=4; $i++){ ?>
+    <div>
+        <img src="<?php echo URL; ?>public/img/<?php echo $i; ?>.jpg" alt="" class="bg-img">
+    </div>
+    <?php }?>
+</div>
+</div>
+
+<div class="blur"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="center-container">
+                <div class="center-container-inner">
+                    <div class="center-container-content">
+                        <div class="image_div img-left">
+                            <img class="img-circle cover-img img-responsive" src="<?php echo URL; ?>public/img/gerardpaullabitad-gpworks-logo.jpg">
+                        </div>
+                        <div class="image_div img-right">
+                            <img class="img-circle cover-img img-responsive" src="<?php echo URL; ?>public/img/gerardpaullabitad-gpworks-logo.jpg">
+                        </div>
                     </div>
-                    <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav pull-right">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                
+                </div>
             </div>
-            
+<!--            <div class="center-container">
+                <div class="center-content">
+                    <div class="box_container">
+                        <div class="image_holder">
+                            <div class='image_div img-left'><img class='box_image img-circle' src='<?php echo URL;?>public/img/gerardpaullabitad-gptechnologies-logo.jpg' style='width:300px; right: 0;'/></div>
+                            <div class='image_div img-right'><img class='box_image img-circle' src='<?php echo URL;?>public/img/gerardpaullabitad-gptechnologies-logo.jpg' style='width:300px; left: 0;'/></div>
+                            <div class="clear"></div>
+                        </div>
+                        WORKS
+                    </div>
+                </div>
+            </div>-->
         </div>
     </div>
 </div>

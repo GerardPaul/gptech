@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>GP Works</title>
     <meta name="description" content="This site is a project of Gerard Paul Picardal Labitad.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,7 +40,7 @@
 <!-- header -->
 <div class="navbar-wrapper">
     <div class="container">
-        <div class="navbar text-shadow">
+        <div class="navbar">
             <div class="navbar-inner">
                     <div class="navbar-header">
                         <button class="navbar-toggle collapsed" data-target=".navbar-collapse" data-toggle="collapse" type="button">
